@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/user_lib_jpa"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/c3p0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jpt.jpa;#system#"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/EclipseLink">
+		<attributes>
+			<attribute name="owner.project.facets" value="jpt.jpa;#system#"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/FileSystemContext">
+		<attributes>
+			<attribute name="owner.project.facets" value="jpt.jpa;#system#"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate">
+		<attributes>
+			<attribute name="owner.project.facets" value="jpt.jpa;#system#"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Oracle">
+		<attributes>
+			<attribute name="owner.project.facets" value="jpt.jpa;#system#"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SLF4J">
+		<attributes>
+			<attribute name="owner.project.facets" value="jpt.jpa;#system#"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
