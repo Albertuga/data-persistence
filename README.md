@@ -1,4 +1,4 @@
-#️ Ecosistemas de persistencia: PL/SQL, JDBC & JPA
+# Ecosistemas de persistencia: PL/SQL, JDBC & JPA
 
 Repositorio que reúne implementaciones prácticas del ciclo de persistencia de datos en el entorno empresarial Java y bases de datos relacionales. Abarca desde la lógica pura en el motor relacional hasta el mapeo objeto-relacional de alto nivel.
 
