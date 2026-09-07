@@ -39,8 +39,7 @@ src/
     ├── PersistenceException.java    # Excepción raíz para fallos de acceso a datos
     ├── PersistenceFactorySingleton.java # Factoría Singleton para EntityManagerFactory
     └── PersistenceService.java      # Utilidad para demarcación de contexto de persistencia
-	
-	_Tambien disponia de carpeta de teses_
+```
 	
 ## Componentes y Patrones de diseño
 ### Modelo del dominio y Mapeo relacional.
