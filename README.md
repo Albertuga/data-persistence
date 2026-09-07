@@ -14,14 +14,14 @@ Repositorio que reúne implementaciones prácticas del ciclo de persistencia de 
 
 ## Proyectos Incluidos
 
-### 1. ⚡ [PL/SQL] — Transacciones y Concurrencia en Base de Datos
+### 1. [PL/SQL] — Transacciones y Concurrencia en Base de Datos
 * **Caso de uso:** Gestión de matrículas de cursos formativos y control de reservas en instalaciones deportivas.
 * **Aspectos técnicos:** Bloqueo a nivel de fila (`SELECT ... FOR UPDATE`), promoción automática en listas de espera, uso de cursores explícitos y transformación de errores del motor mediante `PRAGMA EXCEPTION_INIT`.
 
-### 2. 🔌 [JDBC] — Capa de Persistencia y Transaccionalidad Manual
+### 2. [JDBC] — Capa de Persistencia y Transaccionalidad Manual
 * **Caso de uso:** Sistema de gestión y liquidación económica de perfiles en proyectos tecnológicos.
 * **Aspectos técnicos:** Control de ciclo de vida transaccional (`setAutoCommit(false)`), prevención de inyecciones SQL mediante `PreparedStatement`, cálculos monetarios precisos con `BigDecimal` y borrados relacionales en cascada orquestados manualmente.
 
-### 3. 🍽️ [JPA / Hibernate] — Dominio y Patrón Generic DAO
+### 3. [JPA / Hibernate] — Dominio y Patrón Generic DAO
 * **Caso de uso:** Plataforma de gestión de catering, menús, bonos de clientes y compras.
 * **Aspectos técnicos:** Claves primarias compuestas (`@EmbeddedId`), objetos de valor (`@Embeddable`), consultas tipadas en JPQL y aislamiento de persistencia mediante arquitectura multicapa y el patrón Generic DAO.
